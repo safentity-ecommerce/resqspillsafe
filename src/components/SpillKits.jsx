@@ -1,11 +1,11 @@
-import "../components/SpillKits.css";
-import Footer from "./Footer";
-import BookKit from "../components/BookKit";
-import HeroPages from "./HeroPages";
-import { Link } from "react-router-dom";
-import ChemicalKit from "../images/spillkit/chemicalKit.png";
-import OilKit from "../images/spillkit/oilKit.png";
-import UniversalKit from "../images/spillkit/universalKit.png";
+import "../components/SpillKits.css"
+import Footer from "./Footer"
+import BookKit from "../components/BookKit"
+import HeroPages from "./HeroPages"
+import { Link } from "react-router-dom"
+import ChemicalKit from "../images/spillkit/chemical.png"
+import OilKit from "../images/spillkit/oil.png"
+import UniversalKit from "../images/spillkit/universal.png"
 
 function SpillKits() {
   return (
@@ -79,7 +79,7 @@ function SpillKits() {
         <Footer />
       </section>
     </>
-  );
+  )
 }
 
-export default SpillKits;
+export default SpillKits

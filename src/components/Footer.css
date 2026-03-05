@@ -130,7 +130,7 @@ footer {
 .footer-content__2 li:nth-child(1) {
   font-size: 2.4rem;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: "Poppins", sans-serif;
   cursor: auto;
 }

@@ -1,5 +1,5 @@
-import "../../ProductPage.css";
-import Universal30 from "../../../images/spillkit/universal-kit/universal30.png";
+import "../../ProductPage.css"
+import Universal30 from "../../../images/spillkit/universal-kit/universal30.jpg"
 
 function Universal30L() {
   return (
@@ -114,7 +114,7 @@ function Universal30L() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Universal30L;
+export default Universal30L

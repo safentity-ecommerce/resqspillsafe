@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import "./Footer.css";
+import { Link } from "react-router-dom"
+import "./Footer.css"
 
 function Footer() {
   return (
@@ -9,31 +9,30 @@ function Footer() {
           <div className="footer-content">
             <ul className="footer-content__1">
               <li>
-                Industrial Care <span>.</span>
+                resq spill safe <span>.</span>
               </li>
               <li>
-                Our spill kits offer comprehensive protection from unexpected
-                spills. Stay prepared with our high-quality spill containment
-                solutions.
+                RESQ Spill Safe provides reliable, easy-to-use protection
+                against leaks and spills, keeping your space safe and compliant.
               </li>
               <li>
                 <a href="/" target="_blank">
                   <i className="fa-brands fa-facebook"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/industrial_care/"
+                  href="https://www.instagram.com/resqspillsafe/"
                   target="_blank"
                 >
                   <i className="fa-brands fa-instagram"></i>
                 </a>
-                <a href="https://wa.link/77gct1" target="_blank">
+                <a href="https://wa.me/+917827258487" target="_blank">
                   <i className="fa-brands fa-whatsapp"></i>
                 </a>
               </li>
               <li>
                 <p>
-                  Privacy Policy | © {new Date().getFullYear()} Industrial Care{" "}
-                  <br /> Developed by {""}
+                  Privacy Policy | © {new Date().getFullYear()} Safentity <br />{" "}
+                  Developed by {""}
                   <a
                     target="_blank"
                     rel="noreferrer"
@@ -71,52 +70,54 @@ function Footer() {
 
             <ul className="footer-content__2">
               <li>Working Hours</li>
-              <li>Mon - Sat: 10:00AM - 6:00PM</li>
-              <li>Sun: Closed</li>
+              <li>Mon - Sun: Anytime</li>
+
+              {/* <li>Mon - Sat: 10:00AM - 6:00PM</li> */}
+              {/* <li>Sun: Closed</li> */}
             </ul>
 
             <ul className="footer-content__2">
               <li>Connect With Us</li>
               <li>
                 <i className="fa-solid fa-phone"></i>
-                <a href="tel:9958086311" target="_blank">
-                  &nbsp; 9958086311
+                <a href="tel:7827258487" target="_blank">
+                  &nbsp; 7827258487
                 </a>
-                ,
-                <a href="tel:8588976857" target="_blank">
+
+                {/* <a href="tel:8588976857" target="_blank">
                   &nbsp; 8588976857
-                </a>
+                </a> */}
               </li>
               <li>
                 <i className="fa-solid fa-envelope"></i>
                 <a
                   href="mailto: 
-                industrialcare@hotmail.com"
+                prateek@safentity.in"
                   target="_blank"
                 >
-                  &nbsp; industrialcare@hotmail.com
+                  &nbsp; prateek@safentity.in
                 </a>
               </li>
               <li>
                 <ul className="footer-content__2__company">
-                  <li>Industrial Care</li>
+                  {/* <li>safentity</li> */}
                   <li>
-                    <span>Sales Office</span>
+                    <span>Shop</span>
                   </li>
                   <li>
                     <i className="fa-solid fa-location-dot"></i>
                     <a
-                      href="https://goo.gl/maps/NdFn7pAUb8QpkbKDA"
+                      href="https://maps.app.goo.gl/Yvu1Wvd3uWFyUGD87?g_st=aw"
                       target="_blank"
                     >
-                      &nbsp; 243, GF ShopNo. 13 & 14, Prakash Market, Phatak
-                      Karor, Ajmeri Gate, <br /> Delhi -110006
+                      &nbsp; 870-A/1, Raja Garden, Old Faridabad, Faridabad,
+                      <br /> HR-121002
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <span>Register Office</span>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <i className="fa-solid fa-location-dot"></i>
                     <a
                       href="http://maps.google.com/?q=11/94 Geeta Colony Near Kanchan Studio Delhi-110031"
@@ -124,7 +125,7 @@ function Footer() {
                     >
                       &nbsp; 11/94, Geeta Colony, <br /> New Delhi - 110031
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
             </ul>
@@ -132,7 +133,7 @@ function Footer() {
         </div>
       </footer>
     </>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

@@ -1,5 +1,5 @@
-import "../../ProductPage.css";
-import Chemical120 from "../../../images/spillkit/chemical-kit/chemical120.png";
+import "../../ProductPage.css"
+import Chemical120 from "../../../images/spillkit/chemical-kit/chemical120.jpg"
 
 function Chemical120L() {
   return (
@@ -134,7 +134,7 @@ function Chemical120L() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Chemical120L;
+export default Chemical120L

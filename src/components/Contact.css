@@ -46,7 +46,7 @@
 .contact-div__text h5 {
   font-size: 2.2rem;
   text-decoration: underline;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .contact-div__text span {

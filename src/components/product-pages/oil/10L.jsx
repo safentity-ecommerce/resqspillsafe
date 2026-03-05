@@ -1,5 +1,5 @@
-import "../../ProductPage.css";
-import Oil10 from "../../../images/spillkit/oil-kit/oil10.jpg";
+import "../../ProductPage.css"
+import Oil10 from "../../../images/spillkit/oil-kit/oil10.jpeg"
 
 function Oil10L() {
   return (
@@ -114,7 +114,7 @@ function Oil10L() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Oil10L;
+export default Oil10L

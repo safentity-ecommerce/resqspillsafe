@@ -1,4 +1,4 @@
-import "./BookKit.css";
+import "./BookKit.css"
 
 function Banner() {
   return (
@@ -9,13 +9,13 @@ function Banner() {
             <h2>Book your spill kit today by contacting us!</h2>
             <span>
               <i className="fa-solid fa-phone"></i>
-              <h3>9958086311, &nbsp; 8588976857</h3>
+              <h3>7827258487</h3>
             </span>
           </div>
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Banner;
+export default Banner

@@ -1,7 +1,7 @@
-import Footer from "../components/Footer";
-import BookKit from "../components/BookKit";
-import HeroPages from "../components/HeroPages";
-import "../components/Contact.css";
+import Footer from "../components/Footer"
+import BookKit from "../components/BookKit"
+import HeroPages from "../components/HeroPages"
+import "../components/Contact.css"
 
 function Contact() {
   return (
@@ -13,35 +13,35 @@ function Contact() {
             <div className="contact-div__text">
               <h2>Need additional information?</h2>
               <p>
-                20+ years of experience in spill kit development and a
-                commitment to quality and innovation. Trust us to provide spill
-                kits that meet your needs and exceed your expectations.
+                Driven by quality and innovation, we create spill kits designed
+                to handle any challenge, giving you reliable protection that
+                meets your needs and exceeds expectations.
               </p>
               <div>
                 <i className="fa-solid fa-phone"></i>
-                <a href="tel:9958086311">&nbsp; 9958086311,</a>
-                <a href="tel:8588976857">&nbsp; 8588976857</a>
+                <a href="tel:7827258487">&nbsp; 7827258487,</a>
               </div>
               <div>
                 <i className="fa-solid fa-envelope"></i>
-                <a href="mailto:industrialcare@hotmail.com">
-                  &nbsp; industrialcare@hotmail.com
+                <a href="mailto:prateek@safentity.in">
+                  &nbsp; prateek@safentity.in
                 </a>
               </div>
+
+              {/* <div>
+                <h5>Safentity</h5>
+              </div> */}
               <div>
-                <h5>Industrial Care</h5>
-              </div>
-              <div>
-                <span>Sales Office</span>
+                <h5>Shop</h5>
               </div>
               <div>
                 <i className="fa-solid fa-location-dot"></i>
-                <a href="https://goo.gl/maps/NdFn7pAUb8QpkbKDA">
-                  &nbsp; 243, GF ShopNo. 13 & 14, Prakash Market, Phatak Karor,
-                  Ajmeri Gate, Delhi -110006
+                <a href="https://maps.app.goo.gl/Yvu1Wvd3uWFyUGD87?g_st=aw">
+                  &nbsp; 870-A/1, Raja Garden, Old Faridabad, Faridabad,
+                  <br /> HR-121002
                 </a>
               </div>
-              <div>
+              {/* <div>
                 <span>Register Office</span>
               </div>
               <div>
@@ -49,7 +49,7 @@ function Contact() {
                 <a href="http://maps.google.com/?q=11/94 Geeta Colony Near Kanchan Studio Delhi-110031">
                   &nbsp; 11/94, Geeta Colony, <br /> New Delhi - 110031
                 </a>
-              </div>
+              </div> */}
             </div>
             <div className="contact-div__form">
               <form>
@@ -80,7 +80,7 @@ function Contact() {
         <Footer />
       </section>
     </>
-  );
+  )
 }
 
-export default Contact;
+export default Contact

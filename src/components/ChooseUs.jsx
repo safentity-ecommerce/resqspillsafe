@@ -1,9 +1,9 @@
-import "./ChooseUs.css";
-import MainImg from "../images/chooseUs/choose-main.png";
-import { Link } from "react-router-dom";
-import Icon1 from "../images/chooseUs/icon1.png";
-import Icon2 from "../images/chooseUs/icon2.png";
-import Icon3 from "../images/chooseUs/icon3.png";
+import "./ChooseUs.css"
+import MainImg from "../images/chooseUs/chooseus-img.png"
+import { Link } from "react-router-dom"
+import Icon1 from "../images/chooseUs/icon1.png"
+import Icon2 from "../images/chooseUs/icon2.png"
+import Icon3 from "../images/chooseUs/icon3.png"
 
 function ChooseUs() {
   return (
@@ -73,7 +73,7 @@ function ChooseUs() {
         </div>
       </section>
     </>
-  );
+  )
 }
 
-export default ChooseUs;
+export default ChooseUs

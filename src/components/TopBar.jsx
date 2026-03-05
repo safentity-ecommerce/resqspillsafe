@@ -1,4 +1,4 @@
-import "../components/TopBar.css";
+import "../components/TopBar.css"
 
 function TopBar() {
   return (
@@ -8,23 +8,23 @@ function TopBar() {
           <div className="top-bar-content">
             <ul>
               <li>
-                <a href="tel:9958086311">
-                  <i className="fa-solid fa-phone"></i> &nbsp; 9958086311
+                <a href="tel:7827258487">
+                  <i className="fa-solid fa-phone"></i> &nbsp; 7827258487
                 </a>
               </li>
               <li>
                 <a
                   href="mailto: 
-                industrialcare@hotmail.com"
+                prateek@safentity.in"
                 >
                   <i className="fa-solid fa-envelope"></i>
-                  &nbsp; industrialcare@hotmail.com
+                  &nbsp; prateek@safentity.in
                 </a>
               </li>
               <li>
                 <a href="#">
                   <i className="fa-sharp fa-solid fa-clock"></i>
-                  &nbsp; Mon - Sat: 10:00AM - 6:00PM
+                  &nbsp; Mon - Sun: Anytime
                 </a>
               </li>
             </ul>
@@ -36,14 +36,14 @@ function TopBar() {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/industrial_care/"
+                  href="https://www.instagram.com/resqspillsafe/"
                   target="_blank"
                 >
                   <i className="fa-brands fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="https://wa.link/77gct1" target="_blank">
+                <a href="https://wa.me/+917827258487" target="_blank">
                   <i className="fa-brands fa-whatsapp"></i>
                 </a>
               </li>
@@ -52,7 +52,7 @@ function TopBar() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default TopBar;
+export default TopBar

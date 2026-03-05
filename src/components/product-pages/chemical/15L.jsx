@@ -1,5 +1,5 @@
-import "../../ProductPage.css";
-import Chemical15 from "../../../images/spillkit/chemical-kit/chemical15.jpg";
+import "../../ProductPage.css"
+import Chemical15 from "../../../images/spillkit/chemical-kit/chemical15.jpg"
 
 function Chemical15L() {
   return (
@@ -11,7 +11,14 @@ function Chemical15L() {
         <div className="product-div">
           <div className="product-page__images">
             <div className="big-img">
-              <img src={Chemical15} alt="product" />
+              <img
+                src={Chemical15}
+                alt="product"
+                style={{
+                  width: "80%",
+                  height: "auto",
+                }}
+              />
             </div>
           </div>
           <main className="table ">
@@ -119,7 +126,7 @@ function Chemical15L() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Chemical15L;
+export default Chemical15L

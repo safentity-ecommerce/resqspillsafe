@@ -1,35 +1,36 @@
-import "./Hero.css";
-import { Link } from "react-router-dom";
-import HeroSpill from "../images/hero/hero-main.png";
-import { useEffect, useState } from "react";
+import "./Hero.css"
+import { Link } from "react-router-dom"
+import HeroImg from "../images/hero/hero-img.png"
+import { useEffect, useState } from "react"
 
 function Hero() {
-  const [goUp, setGoUp] = useState(false);
+  const [goUp, setGoUp] = useState(false)
 
   const scrollToTop = () => {
-    window.scrollTo({ top: (0, 0), behavior: "smooth" });
-  };
+    window.scrollTo({ top: (0, 0), behavior: "smooth" })
+  }
 
-  const contactBtn = () => {
-    document
-      .querySelector("#contact-section")
-      .scrollIntoView({ behavior: "smooth" });
-    window.scrollTo(0, 0);
-  };
+  // const contactBtn = () => {
+  //   document
+  //     .querySelector("#contact-section")
+  //     .scrollIntoView({ behavior: "smooth" })
+  //   window.scrollTo(0, 0)
+  // }
+
   useEffect(() => {
     const onPageScroll = () => {
       if (window.pageYOffset > 600) {
-        setGoUp(true);
+        setGoUp(true)
       } else {
-        setGoUp(false);
+        setGoUp(false)
       }
-    };
-    window.addEventListener("scroll", onPageScroll);
+    }
+    window.addEventListener("scroll", onPageScroll)
 
     return () => {
-      window.removeEventListener("scroll", onPageScroll);
-    };
-  }, []);
+      window.removeEventListener("scroll", onPageScroll)
+    }
+  }, [])
   return (
     <>
       <section id="home" className="hero-section">
@@ -41,14 +42,14 @@ function Hero() {
                 Save <span>big</span> with our spill kits
               </h1>
               <p>
-                Unbeatable prices, versatile options, and unlimited spill
-                protection equip yourself with top notch containment solutions.
+                Best prices, flexible choices, and spill protection you can
+                count on, stay ready with our top-notch containment solutions
               </p>
               <div className="hero-content__text__btn">
                 <Link
-                  onClick={contactBtn}
+                  onClick={() => window.scrollTo(0, 0)}
                   className="hero-content__text__btn__contact"
-                  to="/"
+                  to="/spillkits"
                 >
                   Order Now &nbsp;
                   <i className="fa-solid fa-angle-right"></i>
@@ -58,7 +59,7 @@ function Hero() {
 
             {/* img */}
             <img
-              src={HeroSpill}
+              src={HeroImg}
               alt="spillkit"
               className="hero-content__resq-spill"
             />
@@ -74,7 +75,7 @@ function Hero() {
         </div>
       </section>
     </>
-  );
+  )
 }
 
-export default Hero;
+export default Hero
