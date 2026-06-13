@@ -75,13 +75,13 @@
 
 .hero-content__text__btn a {
   text-decoration: none;
-  color: white;
+  color: 010103;
   font-weight: 500;
 }
 
 .hero-content__text__btn__contact {
   background-color: #f4c336;
-  color: white;
+  /* color: #f8f8f8; */
   padding: 1.5rem 3rem;
   border: 2px solid #f4c336;
   border-radius: 3px;
