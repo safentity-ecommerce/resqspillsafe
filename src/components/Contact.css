@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   margin: 0 auto;
-  color: #010103;
+  color: var(--text-primary);
   padding: 10rem 2rem;
   background-size: auto;
   background-position: center center;
@@ -35,7 +35,7 @@
 .contact-div__text p {
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
-  color: #706f7b;
+  color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 2rem;
 }
@@ -56,14 +56,14 @@
 
 .contact-div__text a {
   text-decoration: none;
-  color: #010103;
+  color: var(--text-primary);
   font-size: 1.6rem;
   font-weight: 500;
   transition: all 0.2s;
   margin-bottom: 0.5rem;
 }
 .contact-div__text a:hover {
-  color: #f4c336;
+  color: var(--primary);
 }
 .contact-div__form {
   display: flex;
@@ -79,10 +79,10 @@
   margin-bottom: 1rem;
 }
 .contact-div__form form label b {
-  color: #f4c336;
+  color: var(--primary);
 }
 .contact-div__form form input {
-  background-color: #f2f2f2;
+  background-color: var(--surface-muted);
   padding: 19px 30px 19px 30px;
   font-size: 1.6rem;
   border: none;
@@ -90,7 +90,7 @@
   margin-bottom: 2.3rem;
 }
 .contact-div__form form textarea {
-  background-color: #f2f2f2;
+  background-color: var(--surface-muted);
   height: 18rem;
   padding: 19px 30px 19px 30px;
   font-size: 1.6rem;
@@ -99,16 +99,16 @@
   margin-bottom: 2.5rem;
 }
 .contact-div__form form button {
-  background-color: #f4c336;
+  background-color: var(--primary);
   padding: 1.8rem 3rem;
   border-radius: 0.3rem;
   transition: all 0.3s;
-  border: 2px solid #f4c336;
-  color: white;
+  border: 2px solid var(--primary);
+  color: var(--text-primary);
   font-size: 1.8rem;
   font-weight: 600;
   cursor: pointer;
 }
 .contact-div__form form button:hover {
-  background-color: #e4ae12;
+  background-color: var(--primary-hover);
 }

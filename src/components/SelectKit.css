@@ -1,5 +1,5 @@
 .select-section {
-  background-color: #ffffff;
+  background-color: var(--white);
   padding: 5.3rem 0;
 }
 
@@ -10,7 +10,7 @@
 .select-container__title {
   margin: 0 auto;
   text-align: center;
-  color: #010103;
+  color: var(--text-primary);
 }
 .select-container__title h3 {
   font-size: 2.4rem;
@@ -62,6 +62,6 @@
 .select-container__boxes__box p {
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
-  color: #706f7b;
+  color: var(--text-secondary);
   line-height: 1.43;
 }

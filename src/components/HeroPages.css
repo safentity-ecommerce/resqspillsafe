@@ -23,7 +23,7 @@
   width: 100%;
   height: 41rem;
   justify-content: center;
-  color: #010103;
+  color: var(--text-primary);
 }
 .hero-pages__text h3 {
   font-size: 3.6rem;
@@ -34,10 +34,10 @@
   font-weight: 600;
 }
 .hero-pages__text p a {
-  color: #010103;
+  color: var(--text-primary);
   text-decoration: none;
   transition: all 0.2s;
 }
 .hero-pages__text p a:hover {
-  color: #f4c336;
+  color: var(--primary);
 }

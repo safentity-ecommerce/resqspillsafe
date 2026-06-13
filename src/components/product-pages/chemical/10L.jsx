@@ -14,7 +14,7 @@ function Chemical10L() {
               <img src={Chemical10} alt="product" />
             </div>
           </div>
-          <main className="table ">
+          <main className="table">
             <div className="product-page__details">
               <table>
                 <thead>

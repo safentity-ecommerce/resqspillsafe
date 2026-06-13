@@ -1,5 +1,5 @@
 .testimonial-section {
-  background-color: #ffffff;
+  background-color: var(--white);
   padding: 10rem 0;
   color: #010103;
 }
@@ -28,7 +28,7 @@
 .testimonial-content__title p {
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
-  color: #706f7b;
+  color: var(--text-secondary);
   line-height: 1.4;
 }
 
@@ -45,7 +45,7 @@
   }
 }
 .all-testimonial__box {
-  background-color: white;
+  background-color: var(--white);
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.08);
   width: 54rem;
   padding: 5.5rem;
@@ -85,7 +85,7 @@
 
 .quotes-icon {
   font-size: 6.2rem;
-  color: #f4c336;
+  color: var(--primary);
   position: absolute;
   bottom: 33px;
   right: 60px;

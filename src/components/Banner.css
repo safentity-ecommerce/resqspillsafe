@@ -2,14 +2,14 @@
   width: 100%;
   height: auto;
   display: flex;
-  background-color: #2d2d2d;
+  background-color: var(--surface-dark);
   margin: 8rem 0;
   padding: 6rem 0;
   text-align: center;
 }
 
 .banner-content {
-  color: white;
+  color: var(--white);
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -39,6 +39,6 @@
   }
 }
 .banner-content__text span {
-  color: #f4c336;
+  color: var(--primary);
   font-weight: 500;
 }

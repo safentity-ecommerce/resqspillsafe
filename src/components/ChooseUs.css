@@ -1,5 +1,5 @@
 .choose-section {
-  background-color: white;
+  background-color: var(--white);
   padding: 2rem 0 10rem 0;
   background-position: -225px 255px;
   background-size: cover;
@@ -40,7 +40,7 @@
   display: flex;
   flex-direction: column;
   max-width: 50rem;
-  color: #010103;
+  color: var(--text-primary);
 }
 @media (max-width: 1000px) {
   .text-container__left {
@@ -63,24 +63,23 @@
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
   line-height: 1.5;
-  color: #706f7b;
+  color: var(--text-secondary);
   margin-bottom: 3.3rem;
 }
 .text-container__left a {
   text-decoration: none;
-  color: white;
+  color: var(--text-primary);
   font-weight: 700;
-  background-color: #f4c336;
+  background-color: var(--primary);
   padding: 1.5rem 2.5rem;
   border-radius: 0.3rem;
   transition: all 0.3s;
-  border: 2px solid #f4c336;
   font-size: 1.6rem;
   width: -moz-fit-content;
   width: fit-content;
 }
 .text-container__left a:hover {
-  background-color: #e4ae12;
+  background-color: var(--primary-hover);
 }
 .text-container__right {
   display: flex;
@@ -113,7 +112,7 @@
 }
 .text-container__right__box__text p {
   font-size: 1.6rem;
-  color: #706f7b;
+  color: var(--text-secondary);
   font-family: "Rubik", sans-serif;
   line-height: 1.3;
 }

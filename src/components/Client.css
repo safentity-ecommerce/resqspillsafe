@@ -1,5 +1,5 @@
 .client-section {
-  background-color: #f8f8f8;
+  background-color: var(--surface-light);
   padding: 5.3rem 0;
 }
 .client-container {
@@ -9,7 +9,7 @@
 .client-container__title {
   margin: 0 auto;
   text-align: center;
-  color: #010103;
+  color: var(--text-primary);
 }
 .client-container__title h4 {
   font-size: 2.2rem;

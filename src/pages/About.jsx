@@ -1,12 +1,12 @@
-import HeroPages from "../components/HeroPages";
-import AboutMain from "../images/about/about-main.jpg";
-import Icon1 from "../images/about/icon1.png";
-import Icon2 from "../images/about/icon2.png";
-import Icon3 from "../images/about/icon3.png";
-import "../components/About.css";
-import SelectKit from "../components/SelectKit";
-import BookKit from "../components/BookKit";
-import Footer from "../components/Footer";
+import HeroPages from "../components/HeroPages"
+import AboutMain from "../images/about/about-main.jpg"
+import Icon1 from "../images/about/icon1.png"
+import Icon2 from "../images/about/icon2.png"
+import Icon3 from "../images/about/icon3.png"
+import "../components/About.css"
+import SelectKit from "../components/SelectKit"
+import BookKit from "../components/BookKit"
+import Footer from "../components/Footer"
 
 function About() {
   return (
@@ -37,21 +37,22 @@ function About() {
                   <img src={Icon1} alt="car-icon" />
                   <span>
                     <h4>3</h4>
-                    <p>Spill Types</p>
+                    <p>Spill Kit Types</p>
+                  </span>
+                </div>
+
+                <div className="about-main__text__icons__box">
+                  <img src={Icon3} alt="car-icon" className="last-fk" />
+                  <span>
+                    <h4>16</h4>
+                    <p>Spill Kit Items</p>
                   </span>
                 </div>
                 <div className="about-main__text__icons__box">
                   <img src={Icon2} alt="car-icon" />
                   <span>
-                    <h4>18</h4>
-                    <p>Spill Variety</p>
-                  </span>
-                </div>
-                <div className="about-main__text__icons__box">
-                  <img src={Icon3} alt="car-icon" className="last-fk" />
-                  <span>
-                    <h4>16</h4>
-                    <p>Spill Items</p>
+                    <h4>20+</h4>
+                    <p>Spill Kit Variations</p>
                   </span>
                 </div>
               </div>
@@ -63,7 +64,7 @@ function About() {
         <Footer />
       </section>
     </>
-  );
+  )
 }
 
-export default About;
+export default About

@@ -1,6 +1,6 @@
 .top-bar {
   height: 6vh;
-  background-color: #f4c336;
+  background-color: var(--primary);
 }
 
 .top-bar-content {
@@ -37,16 +37,17 @@
 
 .top-bar ul li {
   list-style: none;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .top-bar ul li a {
   text-decoration: none;
-  color: black;
+  color: var(--text-primary);
+  font-weight: 500;
 }
 
 .top-bar__social i {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 
 @media (max-width: 800px) {
