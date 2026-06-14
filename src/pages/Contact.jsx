@@ -2,8 +2,52 @@ import Footer from "../components/Footer"
 import BookKit from "../components/BookKit"
 import HeroPages from "../components/HeroPages"
 import "../components/Contact.css"
+import { useState } from "react"
+import { toast, Toaster } from "sonner"
 
 function Contact() {
+  const [name, setName] = useState("")
+  const [phone, setPhone] = useState("")
+  const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
+
+  const onSubmit = async (e) => {
+    e.preventDefault()
+
+    const data = {
+      name,
+      phone,
+      email,
+      message,
+    }
+
+    try {
+      const API_URL = import.meta.env.VITE_API_URL
+      const response = await fetch(`${API_URL}/send-email`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      })
+
+      const result = await response.json()
+
+      if (!response.ok) {
+        throw new Error(result.message)
+      }
+
+      toast.success(result.message)
+
+      setName("")
+      setPhone("")
+      setEmail("")
+      setMessage("")
+    } catch (error) {
+      toast.error(error.message)
+    }
+  }
+
   return (
     <>
       <section className="contact-page">
@@ -52,21 +96,50 @@ function Contact() {
               </div> */}
             </div>
             <div className="contact-div__form">
-              <form>
+              <form onSubmit={onSubmit}>
                 <label>
-                  Full Name <b>*</b>
+                  Company Name <b>*</b>
                 </label>
-                <input type="text" placeholder='E.g: "John Smith"'></input>
+                <input
+                  type="text"
+                  name="name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  placeholder='E.g: "Amazon Inc"'
+                  required
+                ></input>
 
                 <label>
-                  Email <b>*</b>
+                  Mobile No. <b>*</b>
                 </label>
-                <input type="email" placeholder="youremail@example.com"></input>
+                <input
+                  type="tel"
+                  name="phone"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  placeholder="7827258487"
+                  required
+                ></input>
+
+                <label>Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="youremail@example.com"
+                ></input>
 
                 <label>
-                  Tell us about it <b>*</b>
+                  Tell us your requirement <b>*</b>
                 </label>
-                <textarea placeholder="Write Here.."></textarea>
+                <textarea
+                  name="message"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  placeholder="Write Here.."
+                  required
+                ></textarea>
 
                 <button type="submit">
                   <i className="fa-solid fa-envelope-open-text"></i>&nbsp; Send
