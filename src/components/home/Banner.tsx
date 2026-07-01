@@ -8,7 +8,9 @@ export default function Banner() {
               Get high quality spill protection from your trusted brand.
             </h2>
             <p className="text-[2.4rem] max-[550px]:text-[2rem]">
-              Order Now. <span className="text-primary font-medium">Get Fast.</span> Reliable Shipping.
+              Order Now.{" "}
+              <span className="text-primary font-medium">Get Fast.</span>{" "}
+              Reliable Shipping.
             </p>
           </div>
         </div>
